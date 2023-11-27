@@ -28,10 +28,9 @@ def pomnoz(a, b):
     return wynik
 
 
-lib1: int = 3
+liczba1 = 3
 liczba2 = 2
-wynik_mnożenia = pomnoz(lib1, liczba2)
-
+wynik_mnożenia = pomnoz(liczba1, liczba2)
 print(wynik_mnożenia)
 
 """zadanie 3"""
@@ -48,7 +47,6 @@ liczba = 5
 wynik_funkcji = czy_parzysta(liczba)
 
 if wynik_funkcji:
-
     print("Liczba parzysta")
 else:
     print("Liczba nieparzysta")
@@ -64,19 +62,17 @@ def sprawdź_sumę(a, b, c):
         return False
 
 
-lib1 = 4
+liczba1 = 4
 liczba2 = 5
 liczba3 = 2
-wynik_funkcji = sprawdź_sumę(lib1, liczba2, liczba3)
+wynik_funkcji = sprawdź_sumę(liczba1, liczba2, liczba3)
 
 print(wynik_funkcji)
-
 
 """zadanie 5"""
 
 
 def sprawdź_obecność_wartości(lista, wartość):
-
     if wartość in lista:
         return True
     else:
@@ -84,8 +80,8 @@ def sprawdź_obecność_wartości(lista, wartość):
 
 
 moja_lista = [2, 7, 1, 8, 9]
-sauna_wartość: int = 2
-wynik_funkcji = sprawdź_obecność_wartości(moja_lista, sauna_wartość)
+szukana_wartość = 2
+wynik_funkcji = sprawdź_obecność_wartości(moja_lista, szukana_wartość)
 
 print(wynik_funkcji)
 
